@@ -1,0 +1,175 @@
+body
+{
+	/* background-image: url(./Imagenes/background.jfif) ; */
+	background-color: #141416 !important;
+	
+}
+
+.content{
+	margin-top: 52px;
+}
+
+/* Tipos de letra */
+
+@font-face{
+	font-family: Titulo;
+	src: url('./Fuentes/Oswald/static/Oswald-Bold.ttf');
+}
+
+@font-face{
+	font-family: Parrafo;
+	src: url('./Fuentes/Source_Sans_Pro/SourceSansPro-Regular.ttf');
+}
+
+@font-face{
+	font-family: Parrafo-Italica;
+	src: url('./Fuentes/Source_Sans_Pro/SourceSansPro-Italic.ttf');
+}
+
+h1{
+	font-family: Titulo;
+	font-size: xx-large;
+	color: #FFFFFF;
+}
+
+h2{
+	font-family: Titulo;
+	font-size: large;
+	color: #FFFFFF;
+}
+
+h3{
+	font-family: Titulo;
+	font-size: medium;
+	color: #FFFFFF;
+}
+
+h4{
+	font-family: Parrafo;
+	font-size: 12px;
+	color: #FFFFFF;
+
+}
+
+.italic{
+    font-family: Parrafo-Italica;
+    color: #FFFFFF;
+	text-align: right;
+}
+
+/*  */
+
+a{
+	color: #FFFFFF !important;
+}
+
+p{
+	font-family: Parrafo;
+    color: #FFFFFF;
+	
+}
+
+#Poderes p{
+	padding-top: 10px;
+}
+
+/* Estilo NavBar */
+
+nav{
+    background-color: #AA0505;
+    
+	
+}
+
+.navbar-brand{
+	font-family: Titulo;
+	font-size: x-large !important;
+	padding: 0 !important;
+}
+
+.nav-link{
+	font-family: Parrafo;
+	font-size: large !important;
+	padding: 0px 8px !important;
+}
+
+.card-columns{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.card-body{
+	padding: 4%  !important;
+}
+
+.progress{
+	background-color: #181d1d !important;
+	animation: progressBar 5s ease-in-out;
+    animation-fill-mode:both;
+}
+
+@keyframes progressBar {
+	0% { width: 0; }
+	100% { width: 100%; }
+  }
+
+.bg-1 {
+	background-color: #AA0505 !important;
+}
+
+.bg-2 {
+	background-color: #6A0C0B !important;
+}
+
+.bg-3 {
+	background-color: #B97D10 !important;
+}
+
+.bg-4 {
+	background-color: #FBCA03 !important;
+}
+
+.bg-5 {
+	background-color: #053040 !important;
+}
+
+.bg-6 {
+	background-color: #14A8E0 !important;
+}
+
+/*  */
+
+section{
+padding: 1% 5% 2% 5%;
+padding-top: 2%;
+padding-bottom: 2%;
+}
+
+#datos{
+	background-color: #17202A;
+}
+
+#Poderes{
+	background-color: #2E4053;
+}
+
+#MCU{
+	background-color: #212F3C;
+}
+
+#IML{
+	text-align: center;
+}
+
+#IML img:hover {-webkit-transform:scale(1.2);transform:scale(1.2);}
+
+.pelicula1{
+	filter: drop-shadow(0 0 10px #B97D10);
+	padding:2%;
+	
+}
+
+.pelicula2{
+	filter: drop-shadow(0 0 10px #AA0505);
+	padding-top: 3%;
+}
